@@ -1,0 +1,16 @@
+PODS:
+  - libscrypt (0.0.1)
+
+DEPENDENCIES:
+  - libscrypt (from `../`)
+
+EXTERNAL SOURCES:
+  libscrypt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libscrypt: 7df58ed399fe26107393eb363926b7d6bbefdc18
+
+PODFILE CHECKSUM: a4e01be23c9ee4e81a6e3cbc93ab6a4d821a8113
+
+COCOAPODS: 1.9.3
