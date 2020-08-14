@@ -1,0 +1,9 @@
+source 'https://github.com/matteozero/pod-template.git'
+
+platform :ios, "10.0"
+use_frameworks! :linkage => :static
+
+target 'libscrypt_Example' do
+  pod 'libscrypt', :path => '../'
+
+end
