@@ -36,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06FE6267141977149CB7DE2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		174534A60F38736ECFCD3B60 /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libscrypt.podspec; path = ../libscrypt.podspec; sourceTree = "<group>"; };
-		19BBB1E8F18075A595C68AE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		06FE6267141977149CB7DE2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		174534A60F38736ECFCD3B60 /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libscrypt.podspec; path = ../libscrypt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19BBB1E8F18075A595C68AE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		32CAA06E7AA809ABB8CD171F /* Pods-libscrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libscrypt_Example.release.xcconfig"; path = "Target Support Files/Pods-libscrypt_Example/Pods-libscrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* libscrypt_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libscrypt_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		6A3A077E0BAEB960CE8B4D4C /* Pods_libscrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libscrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FC4E8966DC76C1EE77E366D /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libscrypt.podspec; path = ../lib/libscrypt.podspec; sourceTree = "<group>"; };
-		9040C63AEEFB64960DE58892 /* Fastfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
-		B5A7222B89501EAEDD6A5CAA /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libscrypt.podspec; path = ../fmk/libscrypt.podspec; sourceTree = "<group>"; };
+		8FC4E8966DC76C1EE77E366D /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libscrypt.podspec; path = ../lib/libscrypt.podspec; sourceTree = "<group>"; };
+		9040C63AEEFB64960DE58892 /* Fastfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
+		B5A7222B89501EAEDD6A5CAA /* libscrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libscrypt.podspec; path = ../fmk/libscrypt.podspec; sourceTree = "<group>"; };
 		D83C9F7ED002BDE9DB3DF23E /* Pods-libscrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libscrypt_Example.debug.xcconfig"; path = "Target Support Files/Pods-libscrypt_Example/Pods-libscrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,6 @@
 				D83C9F7ED002BDE9DB3DF23E /* Pods-libscrypt_Example.debug.xcconfig */,
 				32CAA06E7AA809ABB8CD171F /* Pods-libscrypt_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
